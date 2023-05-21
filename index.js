@@ -44,6 +44,7 @@ function show(data) {
     document.getElementById("Expectations").style.display="block";
     document.getElementById("Weather").style.display="block";
     document.getElementById("Data").innerText = text;
+    console.log(text);
 }
 
 
