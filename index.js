@@ -42,6 +42,7 @@ function show(data) {
     text += "UV : " + data.current[Object.keys(data.current)[i]] + "\n";
     document.getElementById("Data_Box").style.display="block";
     document.getElementById("Expectations").style.display="block";
+    document.getElementById("Weather").style.display="block";
     document.getElementById("Data").innerText = text;
 }
 

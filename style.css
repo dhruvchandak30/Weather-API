@@ -52,10 +52,11 @@
 #Expectations{
      display: none;
      width: 100%;
+     line-height: 20px;
      background-color: aquamarine;
-    /* float:left; */
     border-radius: 10px;
     padding: 5px 10px;
+    
 }
 li{
     text-decoration: none;
@@ -65,7 +66,8 @@ ul{
     font-size: large;
     font-weight: bold;
 }
-.Weather{
+#Weather{
+    display: none;
     margin-left: auto;
     margin-left: auto;
     height: auto;
