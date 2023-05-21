@@ -15,7 +15,7 @@ function Display() {
 
 // Result Page
 async function result(url) {
-    const response = fetch(url);
+    const response = await fetch(url);
     var data = await response.json();
     show(data);
 }
