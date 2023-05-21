@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/index.js"></script>
     <title>WEATHER API</title>
 </head>
+
 <body>
-    
+
+    <div id="Options">
+        <button class="dropbtn" onclick="Display()" id="select">Select Area</button>
+        <div id="Countries">
+            <li class="Country" value="India" onclick="Call(event)">India</li>
+            <li class="Country" value="London" onclick="Call(event)">London</li>
+            <li class="Country" value="Egypt" onclick="Call(event)">Egypt</li>
+            <li class="Country" value="Brazil" onclick="Call(event)">Brazil</li>
+            <li class="Country" value="Mexico" onclick="Call(event)">Mexico</li>
+            <li class="Country" value="Kenya" onclick="Call(event)">Kenya</li>
+            <li class="Country" value="Australia" onclick="Call(event)">Australia</li>
+            <li class="Country" value="Bangladesh" onclick="Call(event)">Bangladesh</li>
+            <li class="Country" value="Maldives" onclick="Call(event)">Maldives</li>
+            <li class="Country" value="Pakistan" onclick="Call(event)">Pakistan</li>
+        </div>
+    </div>
+    <div class="Weather">
+        <div id="Data_Box">
+            <h3 id="Data"></h3>
+        </div>
+
+        <div id="Expectations">
+            <h2>Expected</h2>
+            <ul>Average Humidity : </ul>
+            <li>30 - 50 %</li>
+            <ul>UV :</ul>
+            <li> 0-2 : Normal</li>
+            <li>3-7 : Seek Shade </li>
+            <li> 8 + : Avoid Being Outside </li>
+        </div>
+    </div>
 </body>
-</html>
+
+</html

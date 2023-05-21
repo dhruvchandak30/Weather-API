@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#Options {
+    display: block;
+    background-color: antiquewhite;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    align-items: center;
+}
+
+.dropbtn {
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+}
+#select{
+    display: block;
+}
+
+#Countries {
+    display: none;
+}
+
+.Country {
+    display: flex;
+    background: none;
+    border: 0.1px solid black;
+    text-decoration: none;
+    padding: 5px 5px;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+#Data_Box {
+    background-color: aqua;
+    line-height: 35px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#Expectations{
+     display: none;
+     width: 100%;
+     background-color: aquamarine;
+    /* float:left; */
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+ul{
+    font-size: large;
+    font-weight: bold;
+}
+.Weather{
+    margin-left: auto;
+    margin-left: auto;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    align-items: center;
+}
