@@ -3,7 +3,7 @@ function Call(event) {
     let country = event.target.getAttribute("value");
     localStorage.setItem("Country_Name", country);
     document.getElementById("Options").style.display="none";
-    const api_url = `http://api.weatherapi.com/v1/current.json?key=e44917d5033a4b33bb3105551232005&q=`+country+`&aqi=no`;
+    const api_url = `https://api.weatherapi.com/v1/current.json?key=e44917d5033a4b33bb3105551232005&q=`+country+`&aqi=no`;
     result(api_url);
     
 }
