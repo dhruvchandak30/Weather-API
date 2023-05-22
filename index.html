@@ -10,22 +10,11 @@
     <title>WEATHER API</title>
 </head>
 
-<body>
+<body onload="Enter()">
 
-    <div id="Options">
-        <button class="dropbtn" onclick="Display()" id="select">Select Area</button>
-        <div id="Countries">
-            <li class="Country" value="India" onclick="Call(event)">India</li>
-            <li class="Country" value="London" onclick="Call(event)">London</li>
-            <li class="Country" value="Egypt" onclick="Call(event)">Egypt</li>
-            <li class="Country" value="Brazil" onclick="Call(event)">Brazil</li>
-            <li class="Country" value="Mexico" onclick="Call(event)">Mexico</li>
-            <li class="Country" value="Kenya" onclick="Call(event)">Kenya</li>
-            <li class="Country" value="Australia" onclick="Call(event)">Australia</li>
-            <li class="Country" value="Bangladesh" onclick="Call(event)">Bangladesh</li>
-            <li class="Country" value="Maldives" onclick="Call(event)">Maldives</li>
-            <li class="Country" value="Pakistan" onclick="Call(event)">Pakistan</li>
-        </div>
+    <div id="Options ">
+        <input type="text" placeholder="Enter The Region" id="Region">
+        <button class="dropbtn"  onclick="Display()" id="select">Select Area</button>
     </div>
     <div id="Weather">
         <div id="Data_Box">
